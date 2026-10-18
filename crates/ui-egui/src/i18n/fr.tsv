@@ -14,7 +14,7 @@
 	1.5 Line Spacing	Interligne 1,5
 	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Un traitement de texte gratuit et open source, écrit de zéro en Rust.\nPartie de la suite Crafting Apps de l’équipe ArtCraft.
 	About	À propos
-	About JAS Word	À propos de JAS Word
+	About JAS Docs	À propos de JAS Docs
 	Accept	Accepter
 	Accept All Changes	Accepter toutes les modifications
 	Accept This Change	Accepter cette modification
@@ -510,7 +510,7 @@
 	Merge Formatting	Fusionner la mise en forme
 	Merged PRs	PR fusionnées
 	Mirrored	Miroir
-	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team et les contributeurs de JAS Word.
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team et les contributeurs de JAS Docs.
 	Moderate	Modérées
 	Modify Style	Modifier le style
 	Modify…	Modifier…
@@ -914,7 +914,7 @@
 	Word Left	Mot vers la gauche
 	Word Right	Mot vers la droite
 	WordArt	WordArt
-	JAS Word	JAS Word
+	JAS Docs	JAS Docs
 	Words	Mots
 	Words only	Mots uniquement
 	Wrap Text	Habillage du texte
@@ -975,7 +975,7 @@
 	Stopped	Arrêté
 	Speed	Vitesse
 	Normal speed	Vitesse normale
-	AutoSave documents you have saved in JAS Word	Enregistrement automatique des documents que vous avez enregistrés dans JAS Word
+	AutoSave documents you have saved in JAS Docs	Enregistrement automatique des documents que vous avez enregistrés dans JAS Docs
 	AutoSave failed: {error}. Save the document to turn AutoSave back on.	Échec de l’enregistrement automatique : {error}. Enregistrez le document pour réactiver l’enregistrement automatique.
 	Couldn't download {name}: {error}	Impossible de télécharger {name} : {error}
 	Do you want to save changes to {name}?	Voulez-vous enregistrer les modifications apportées à {name} ?
@@ -1280,7 +1280,7 @@
 	The document will be saved with a password. Save it to protect it.	Le document sera enregistré avec un mot de passe. Enregistrez-le pour le protéger.
 	The password is removed. Save the document to keep the change.	Le mot de passe est supprimé. Enregistrez le document pour conserver cette modification.
 	The passwords don't match.	Les mots de passe ne correspondent pas.
-	Keep the password somewhere safe: without it nobody, JAS Word included, can open the document. Leave both boxes empty to remove the password.	Conservez le mot de passe en lieu sûr : sans lui, personne, JAS Word inclus, ne peut ouvrir le document. Laissez les deux zones vides pour supprimer le mot de passe.
+	Keep the password somewhere safe: without it nobody, JAS Docs included, can open the document. Leave both boxes empty to remove the password.	Conservez le mot de passe en lieu sûr : sans lui, personne, JAS Docs inclus, ne peut ouvrir le document. Laissez les deux zones vides pour supprimer le mot de passe.
 	Align Top Left	Aligner en haut à gauche
 	Align Top Center	Aligner en haut au centre
 	Align Top Right	Aligner en haut à droite
@@ -1936,7 +1936,7 @@
 	Word document	Document Word
 	All files	Tous les fichiers
 	Recipient lists	Listes de destinataires
-	The system file dialog isn't available, so JAS Word shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	La boîte de dialogue de fichiers du système n’est pas disponible, JAS Word affiche donc la sienne. Pour utiliser celle du système, installez un portail de sélection de fichiers (comme xdg-desktop-portal-gtk) ou zenity.
+	The system file dialog isn't available, so JAS Docs shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	La boîte de dialogue de fichiers du système n’est pas disponible, JAS Docs affiche donc la sienne. Pour utiliser celle du système, installez un portail de sélection de fichiers (comme xdg-desktop-portal-gtk) ou zenity.
 	Up one level	Dossier parent
 	Home folder	Dossier personnel
 	{name} wasn't found.	{name} est introuvable.
@@ -1944,8 +1944,8 @@
 	This folder can't be read: {error}	Impossible de lire ce dossier : {error}
 	Showing the first {count} items.	Affichage des {count} premiers éléments.
 	File name:	Nom du fichier :
-	Browse in JAS Word…	Parcourir dans JAS Word…
-	Open a file with JAS Word's own browser when the system file dialog doesn't appear.	Ouvrir un fichier avec le navigateur de fichiers intégré à JAS Word lorsque la boîte de dialogue de fichiers du système n’apparaît pas.
+	Browse in JAS Docs…	Parcourir dans JAS Docs…
+	Open a file with JAS Docs's own browser when the system file dialog doesn't appear.	Ouvrir un fichier avec le navigateur de fichiers intégré à JAS Docs lorsque la boîte de dialogue de fichiers du système n’apparaît pas.
 	Hide White Space	Masquer les espaces blancs
 	All pages	Toutes les pages
 	Current page	Page actuelle
@@ -2044,13 +2044,13 @@
 	Use "an" before a vowel sound	Utiliser « an » devant un son voyelle
 	Use "a" before a consonant sound	Utiliser « a » devant un son consonne
 	The spelling and grammar check is complete.	La vérification de l’orthographe et de la grammaire est terminée.
-	Couldn't make JAS Word the default: {error}	Impossible de faire de JAS Word l’application par défaut : {error}
-	In Default apps, choose JAS Word for the document types you want it to open.	Dans Applications par défaut, choisissez JAS Word pour les types de documents qu’il doit ouvrir.
-	Make JAS Word the default for Word documents…	Faire de JAS Word l’application par défaut pour les documents Word…
-	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Word from now on.	Ouvre désormais les fichiers .docx, .doc, .rtf et .odt ainsi que les modèles Word avec JAS Word.
-	Opens Settings › Default apps, where you choose JAS Word for .docx and the other document types.	Ouvre Paramètres › Applications par défaut, où vous choisissez JAS Word pour .docx et les autres types de documents.
-	To open Word documents with JAS Word by default: select one in Finder, choose File › Get Info, pick JAS Word under Open with, then click Change All.	Pour ouvrir les documents Word avec JAS Word par défaut : sélectionnez-en un dans le Finder, choisissez Fichier › Lire les informations, choisissez JAS Word sous « Ouvrir avec », puis cliquez sur « Tout modifier ».
-	JAS Word is now the default app for Word documents.	JAS Word est désormais l’application par défaut pour les documents Word.
+	Couldn't make JAS Docs the default: {error}	Impossible de faire de JAS Docs l’application par défaut : {error}
+	In Default apps, choose JAS Docs for the document types you want it to open.	Dans Applications par défaut, choisissez JAS Docs pour les types de documents qu’il doit ouvrir.
+	Make JAS Docs the default for Word documents…	Faire de JAS Docs l’application par défaut pour les documents Word…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Docs from now on.	Ouvre désormais les fichiers .docx, .doc, .rtf et .odt ainsi que les modèles Word avec JAS Docs.
+	Opens Settings › Default apps, where you choose JAS Docs for .docx and the other document types.	Ouvre Paramètres › Applications par défaut, où vous choisissez JAS Docs pour .docx et les autres types de documents.
+	To open Word documents with JAS Docs by default: select one in Finder, choose File › Get Info, pick JAS Docs under Open with, then click Change All.	Pour ouvrir les documents Word avec JAS Docs par défaut : sélectionnez-en un dans le Finder, choisissez Fichier › Lire les informations, choisissez JAS Docs sous « Ouvrir avec », puis cliquez sur « Tout modifier ».
+	JAS Docs is now the default app for Word documents.	JAS Docs est désormais l’application par défaut pour les documents Word.
 	Numerals:	Chiffres :
 	Numerals	Chiffres
 	Hindi	Hindi
@@ -2066,8 +2066,8 @@
 	Undo 1 Action	Annuler 1 action
 	Undo {n} Actions	Annuler {n} actions
 	Start-up	Démarrage
-	Show the Start screen when JAS Word starts	Afficher l'écran d'accueil au démarrage de JAS Word
-	On: JAS Word opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Activé : JAS Word s'ouvre sur Fichier › Accueil, avec un document vierge, les modèles et vos documents récents. Désactivé : il ouvre un document vierge.
+	Show the Start screen when JAS Docs starts	Afficher l'écran d'accueil au démarrage de JAS Docs
+	On: JAS Docs opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Activé : JAS Docs s'ouvre sur Fichier › Accueil, avec un document vierge, les modèles et vos documents récents. Désactivé : il ouvre un document vierge.
 	Correct TWo INitial CApitals	Corriger DEux MAjuscules EN début de mot
 	Correct accidental usage of cAPS LOCK key	Corriger l’utilisation accidentelle de la touche vERR. mAJ
 	Region:	Région :

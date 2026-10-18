@@ -1,4 +1,4 @@
-//! JAS Word engine: the editing session and its commands.
+//! JAS Docs engine: the editing session and its commands.
 //!
 //! **Everything is a command.** Each user-visible action is a [`CommandSpec`] with a stable id
 //! (`format.bold`, `insert.table`), a label, the ribbon/menu location, a default shortcut, a

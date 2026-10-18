@@ -1,6 +1,6 @@
 # Brazilian Portuguese (pt-br) interface catalog. Columns, separated by a TAB:
 #   context <TAB> English source <TAB> translation
-#   context    empty (JAS Word uses no contexts yet)
+#   context    empty (JAS Docs uses no contexts yet)
 #   source     the English text exactly as in the code (tl!(...), ribbon labels, command labels)
 #   escapes    \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns, and a
 #              trailing "…" in one needs one in the other.
@@ -9,14 +9,14 @@
 # Clean room: every entry was written from the plain meaning of the English label in ordinary
 # computing vocabulary. No Microsoft Word (or other product) localisation, string table or
 # translated UI was consulted or copied; add entries the same way.
-# Product, format and technology names (JAS Word, PDF, Markdown, MCP …) stay in Latin letters.
+# Product, format and technology names (JAS Docs, PDF, Markdown, MCP …) stay in Latin letters.
 
 	(no style)	(sem estilo)
 	(no suggestions)	(sem sugestões)
 	1.5 Line Spacing	Espaçamento de 1,5 linha
 	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Um processador de texto gratuito e de código aberto, escrito do zero em Rust.\nFaz parte dos Crafting Apps da equipe ArtCraft.
 	About	Sobre
-	About JAS Word	Sobre o JAS Word
+	About JAS Docs	Sobre o JAS Docs
 	Accept	Aceitar
 	Accept All Changes	Aceitar todas as alterações
 	Accept This Change	Aceitar esta alteração
@@ -273,7 +273,7 @@
 	Copy	Copiar
 	Copy Formatting	Copiar formatação
 	Corrections	Correções
-	Couldn't make JAS Word the default: {error}	Não foi possível tornar o JAS Word o aplicativo padrão: {error}
+	Couldn't make JAS Docs the default: {error}	Não foi possível tornar o JAS Docs o aplicativo padrão: {error}
 	Count words in text boxes and notes	Contar palavras em caixas de texto e notas
 	Cover Page	Capa
 	Create	Criar
@@ -311,15 +311,15 @@
 	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	Arraste um retângulo para desenhar uma tabela, ou uma linha sobre as células para dividi-las. Esc encerra.
 	Draw Table	Desenhar tabela
 	Edit Comment	Editar comentário
-	In Default apps, choose JAS Word for the document types you want it to open.	Em Aplicativos padrão, escolha o JAS Word para os tipos de documento que você quer que ele abra.
+	In Default apps, choose JAS Docs for the document types you want it to open.	Em Aplicativos padrão, escolha o JAS Docs para os tipos de documento que você quer que ele abra.
 	Left Margin	Margem esquerda
 	Indents and Spacing	Recuos e espaçamento
 	Line breaking	Quebra de linhas
-	Make JAS Word the default for Word documents…	Tornar o JAS Word o aplicativo padrão para documentos do Word…
+	Make JAS Docs the default for Word documents…	Tornar o JAS Docs o aplicativo padrão para documentos do Word…
 	More templates →	Mais modelos →
 	No templates match your search.	Nenhum modelo corresponde à pesquisa.
-	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Word from now on.	A partir de agora, arquivos .docx, .doc, .rtf e .odt e modelos do Word abrem no JAS Word.
-	Opens Settings › Default apps, where you choose JAS Word for .docx and the other document types.	Abre Configurações › Aplicativos padrão, onde você escolhe o JAS Word para .docx e os outros tipos de documento.
+	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Docs from now on.	A partir de agora, arquivos .docx, .doc, .rtf e .odt e modelos do Word abrem no JAS Docs.
+	Opens Settings › Default apps, where you choose JAS Docs for .docx and the other document types.	Abre Configurações › Aplicativos padrão, onde você escolhe o JAS Docs para .docx e os outros tipos de documento.
 	Reopen	Reabrir
 	Right Margin	Margem direita
 	Distribute letters	Distribuir letras
@@ -329,8 +329,8 @@
 	Right (vertical)	Direita (vertical)
 	Ruby text:	Texto ruby:
 	Search for templates	Pesquisar modelos
-	To open Word documents with JAS Word by default: select one in Finder, choose File › Get Info, pick JAS Word under Open with, then click Change All.	Para abrir documentos do Word com o JAS Word por padrão: selecione um no Finder, escolha Arquivo › Obter Informações, selecione o JAS Word em “Abrir com” e clique em “Alterar Tudo”.
-	JAS Word is now the default app for Word documents.	O JAS Word agora é o aplicativo padrão para documentos do Word.
+	To open Word documents with JAS Docs by default: select one in Finder, choose File › Get Info, pick JAS Docs under Open with, then click Change All.	Para abrir documentos do Word com o JAS Docs por padrão: selecione um no Finder, escolha Arquivo › Obter Informações, selecione o JAS Docs em “Abrir com” e clique em “Alterar Tudo”.
+	JAS Docs is now the default app for Word documents.	O JAS Docs agora é o aplicativo padrão para documentos do Word.
 	development build	versão de desenvolvimento
 	Diagonal	Diagonal
 	Diamond	Losango
@@ -552,7 +552,7 @@
 	Merge Formatting	Mesclar formatação
 	Merged PRs	PRs mesclados
 	Mirrored	Espelhada
-	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team e os colaboradores do JAS Word.
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team e os colaboradores do JAS Docs.
 	Moderate	Moderada
 	Modify Style	Modificar estilo
 	Modify…	Modificar…
@@ -953,7 +953,7 @@
 	Word Left	Palavra à esquerda
 	Word Right	Palavra à direita
 	WordArt	Texto artístico
-	JAS Word	JAS Word
+	JAS Docs	JAS Docs
 	Words	Palavras
 	Words only	Somente palavras
 	Wrap Text	Quebrar texto
@@ -1016,7 +1016,7 @@
 	Stopped	Parado
 	Speed	Velocidade
 	Normal speed	Velocidade normal
-	AutoSave documents you have saved in JAS Word	Salvar automaticamente documentos que você salvou no JAS Word
+	AutoSave documents you have saved in JAS Docs	Salvar automaticamente documentos que você salvou no JAS Docs
 	AutoSave failed: {error}. Save the document to turn AutoSave back on.	Falha no salvamento automático: {error}. Salve o documento para reativar o salvamento automático.
 	Couldn't download {name}: {error}	Não foi possível baixar {name}: {error}
 	Do you want to save changes to {name}?	Deseja salvar as alterações em {name}?
@@ -1352,7 +1352,7 @@
 	The document will be saved with a password. Save it to protect it.	O documento será salvo com senha. Salve-o para protegê-lo.
 	The password is removed. Save the document to keep the change.	A senha foi removida. Salve o documento para manter a alteração.
 	The passwords don't match.	As senhas não coincidem.
-	Keep the password somewhere safe: without it nobody, JAS Word included, can open the document. Leave both boxes empty to remove the password.	Guarde a senha em um lugar seguro: sem ela, ninguém, nem o JAS Word, consegue abrir o documento. Deixe as duas caixas vazias para remover a senha.
+	Keep the password somewhere safe: without it nobody, JAS Docs included, can open the document. Leave both boxes empty to remove the password.	Guarde a senha em um lugar seguro: sem ela, ninguém, nem o JAS Docs, consegue abrir o documento. Deixe as duas caixas vazias para remover a senha.
 
 # Interface text routed through translation (#313)
 	Align Top Left	Alinhar acima à esquerda
@@ -1741,7 +1741,7 @@
 	Word document	Documento do Word
 	All files	Todos os arquivos
 	Recipient lists	Listas de destinatários
-	The system file dialog isn't available, so JAS Word shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	A caixa de diálogo de arquivos do sistema não está disponível, então o JAS Word mostra a sua própria. Para usar a do sistema, instale um portal seletor de arquivos (como xdg-desktop-portal-gtk) ou o zenity.
+	The system file dialog isn't available, so JAS Docs shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	A caixa de diálogo de arquivos do sistema não está disponível, então o JAS Docs mostra a sua própria. Para usar a do sistema, instale um portal seletor de arquivos (como xdg-desktop-portal-gtk) ou o zenity.
 	Up one level	Subir um nível
 	Home folder	Pasta pessoal
 	{name} wasn't found.	{name} não foi encontrado.
@@ -1749,8 +1749,8 @@
 	This folder can't be read: {error}	Não é possível ler esta pasta: {error}
 	Showing the first {count} items.	Mostrando os primeiros {count} itens.
 	File name:	Nome do arquivo:
-	Browse in JAS Word…	Procurar no JAS Word…
-	Open a file with JAS Word's own browser when the system file dialog doesn't appear.	Abra um arquivo com o navegador próprio do JAS Word quando a caixa de diálogo de arquivos do sistema não aparecer.
+	Browse in JAS Docs…	Procurar no JAS Docs…
+	Open a file with JAS Docs's own browser when the system file dialog doesn't appear.	Abra um arquivo com o navegador próprio do JAS Docs quando a caixa de diálogo de arquivos do sistema não aparecer.
 	Hide White Space	Ocultar espaço em branco
 	All pages	Todas as páginas
 	Current page	Página atual
@@ -2085,5 +2085,5 @@
 	Region:	Região:
 	Automatic ({region})	Automático ({region})
 	Start-up	Inicialização
-	Show the Start screen when JAS Word starts	Mostrar a tela inicial ao abrir o JAS Word
-	On: JAS Word opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Ativado: o JAS Word abre em Arquivo › Início, com um documento em branco, os modelos e seus documentos recentes. Desativado: abre um documento em branco.
+	Show the Start screen when JAS Docs starts	Mostrar a tela inicial ao abrir o JAS Docs
+	On: JAS Docs opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Ativado: o JAS Docs abre em Arquivo › Início, com um documento em branco, os modelos e seus documentos recentes. Desativado: abre um documento em branco.

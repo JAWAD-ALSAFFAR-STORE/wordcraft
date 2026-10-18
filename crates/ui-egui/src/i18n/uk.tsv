@@ -1,6 +1,6 @@
 # Ukrainian (uk) interface catalog. Columns, separated by a TAB:
 #   context <TAB> English source <TAB> translation
-#   context    empty (JAS Word uses no contexts yet)
+#   context    empty (JAS Docs uses no contexts yet)
 #   source     the English text exactly as in the code (tl!(...), ribbon labels, command labels)
 #   escapes    \n  \t  \\ inside a column. `{name}` placeholders must appear in both columns,
 #              and a trailing "…" in one needs one in the other.
@@ -8,15 +8,15 @@
 #
 # Clean room: translated from the meaning of the English labels in this repository.
 # No Microsoft Word or other product localisation was consulted or copied.
-# Product, format and technology names (JAS Word, PDF, Markdown, MCP …) stay in Latin letters.
-# Author: @dmatviichuk with Codex; licensed MIT OR Apache-2.0, like JAS Word.
+# Product, format and technology names (JAS Docs, PDF, Markdown, MCP …) stay in Latin letters.
+# Author: @dmatviichuk with Codex; licensed MIT OR Apache-2.0, like JAS Docs.
 
 	(no style)	(без стилю)
 	(no suggestions)	(немає пропозицій)
 	1.5 Line Spacing	Міжрядковий інтервал 1,5
 	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Безкоштовний текстовий процесор із відкритим кодом, написаний з нуля мовою Rust.\nЧастина Crafting Apps від команди ArtCraft.
 	About	Про програму
-	About JAS Word	Про JAS Word
+	About JAS Docs	Про JAS Docs
 	Accept	Прийняти
 	Accept All Changes	Прийняти всі зміни
 	Accept This Change	Прийняти цю зміну
@@ -280,7 +280,7 @@
 	Copy	Копіювати
 	Copy Formatting	Копіювати форматування
 	Corrections	Виправлення
-	Couldn't make JAS Word the default: {error}	Не вдалося зробити JAS Word типовою програмою: {error}
+	Couldn't make JAS Docs the default: {error}	Не вдалося зробити JAS Docs типовою програмою: {error}
 	Count words in text boxes and notes	Рахувати слова в текстових полях і виносках
 	Cover Page	Титульна сторінка
 	Create	Створити
@@ -318,15 +318,15 @@
 	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	Перетягніть прямокутник, щоб намалювати таблицю, або лінію через клітинки, щоб їх розділити. Esc завершує.
 	Draw Table	Намалювати таблицю
 	Edit Comment	Редагувати коментар
-	In Default apps, choose JAS Word for the document types you want it to open.	У програмах за замовчуванням виберіть JAS Word для типів документів, які він має відкривати.
+	In Default apps, choose JAS Docs for the document types you want it to open.	У програмах за замовчуванням виберіть JAS Docs для типів документів, які він має відкривати.
 	Left Margin	Ліве поле
 	Indents and Spacing	Відступи й інтервали
 	Line breaking	Розрив рядків
-	Make JAS Word the default for Word documents…	Зробити JAS Word типовою програмою для документів Word…
+	Make JAS Docs the default for Word documents…	Зробити JAS Docs типовою програмою для документів Word…
 	More templates →	Більше шаблонів →
 	No templates match your search.	Немає шаблонів, що відповідають пошуку.
-	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Word from now on.	Відтепер файли .docx, .doc, .rtf, .odt і шаблони Word відкриватимуться у JAS Word.
-	Opens Settings › Default apps, where you choose JAS Word for .docx and the other document types.	Відкриває Параметри › Програми за замовчуванням, де ви вибираєте JAS Word для .docx та інших типів документів.
+	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Docs from now on.	Відтепер файли .docx, .doc, .rtf, .odt і шаблони Word відкриватимуться у JAS Docs.
+	Opens Settings › Default apps, where you choose JAS Docs for .docx and the other document types.	Відкриває Параметри › Програми за замовчуванням, де ви вибираєте JAS Docs для .docx та інших типів документів.
 	Reopen	Відкрити знову
 	Right Margin	Праве поле
 	Distribute letters	Розподілити літери
@@ -336,8 +336,8 @@
 	Right (vertical)	Праворуч (вертикально)
 	Ruby text:	Текст рубі:
 	Search for templates	Пошук шаблонів
-	To open Word documents with JAS Word by default: select one in Finder, choose File › Get Info, pick JAS Word under Open with, then click Change All.	Щоб документи Word типово відкривалися у JAS Word: виберіть документ у Finder, оберіть Файл › Отримати інфо, виберіть JAS Word у розділі «Відкривати за допомогою» і натисніть «Змінити все».
-	JAS Word is now the default app for Word documents.	JAS Word тепер типова програма для документів Word.
+	To open Word documents with JAS Docs by default: select one in Finder, choose File › Get Info, pick JAS Docs under Open with, then click Change All.	Щоб документи Word типово відкривалися у JAS Docs: виберіть документ у Finder, оберіть Файл › Отримати інфо, виберіть JAS Docs у розділі «Відкривати за допомогою» і натисніть «Змінити все».
+	JAS Docs is now the default app for Word documents.	JAS Docs тепер типова програма для документів Word.
 	development build	Збірка для розробки
 	Diagonal	Діагональ
 	Diamond	Ромб
@@ -566,7 +566,7 @@
 	Merge Formatting	Об'єднати форматування
 	Merged PRs	Об'єднані PR
 	Mirrored	Дзеркальні
-	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Авторські права (c) 2026 команди ArtCraft і учасників JAS Word.
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Авторські права (c) 2026 команди ArtCraft і учасників JAS Docs.
 	Moderate	Помірні
 	Modify Style	Змінити стиль
 	Modify…	Змінити…
@@ -981,7 +981,7 @@
 	Word Left	На слово ліворуч
 	Word Right	На слово праворуч
 	WordArt	WordArt
-	JAS Word	JAS Word
+	JAS Docs	JAS Docs
 	Words	Слова
 	Words only	Лише слова
 	Wrap Text	Обтікання текстом
@@ -1044,7 +1044,7 @@
 	Stopped	Зупинено
 	Speed	Швидкість
 	Normal speed	Звичайна швидкість
-	AutoSave documents you have saved in JAS Word	Автоматично зберігати документи, збережені у JAS Word
+	AutoSave documents you have saved in JAS Docs	Автоматично зберігати документи, збережені у JAS Docs
 	AutoSave failed: {error}. Save the document to turn AutoSave back on.	Не вдалося виконати автозбереження: {error}. Збережіть документ, щоб знову ввімкнути автозбереження.
 	Couldn't download {name}: {error}	Не вдалося завантажити {name}: {error}
 	Do you want to save changes to {name}?	Зберегти зміни в {name}?
@@ -1352,7 +1352,7 @@
 	The document will be saved with a password. Save it to protect it.	Документ буде збережено з паролем. Збережіть його, щоб захистити.
 	The password is removed. Save the document to keep the change.	Пароль видалено. Збережіть документ, щоб зберегти зміну.
 	The passwords don't match.	Паролі не збігаються.
-	Keep the password somewhere safe: without it nobody, JAS Word included, can open the document. Leave both boxes empty to remove the password.	Зберігайте пароль у надійному місці: без нього ніхто, зокрема JAS Word, не зможе відкрити документ. Залиште обидва поля порожніми, щоб видалити пароль.
+	Keep the password somewhere safe: without it nobody, JAS Docs included, can open the document. Leave both boxes empty to remove the password.	Зберігайте пароль у надійному місці: без нього ніхто, зокрема JAS Docs, не зможе відкрити документ. Залиште обидва поля порожніми, щоб видалити пароль.
 
 # Interface text routed through translation (#313)
 	Align Top Left	Вирівняти вгорі ліворуч
@@ -1741,7 +1741,7 @@
 	Word document	Документ Word
 	All files	Усі файли
 	Recipient lists	Списки одержувачів
-	The system file dialog isn't available, so JAS Word shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Системне діалогове вікно файлів недоступне, тож JAS Word показує власне. Щоб отримати системне вікно, установіть портал вибору файлів (наприклад, xdg-desktop-portal-gtk) або zenity.
+	The system file dialog isn't available, so JAS Docs shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Системне діалогове вікно файлів недоступне, тож JAS Docs показує власне. Щоб отримати системне вікно, установіть портал вибору файлів (наприклад, xdg-desktop-portal-gtk) або zenity.
 	Up one level	На рівень вище
 	Home folder	Домашня тека
 	{name} wasn't found.	{name} не знайдено.
@@ -1749,8 +1749,8 @@
 	This folder can't be read: {error}	Не вдається прочитати цю теку: {error}
 	Showing the first {count} items.	Показано лише перші елементи: {count}.
 	File name:	Ім'я файлу:
-	Browse in JAS Word…	Огляд у JAS Word…
-	Open a file with JAS Word's own browser when the system file dialog doesn't appear.	Відкрити файл власним оглядачем JAS Word, коли системне діалогове вікно файлів не з'являється.
+	Browse in JAS Docs…	Огляд у JAS Docs…
+	Open a file with JAS Docs's own browser when the system file dialog doesn't appear.	Відкрити файл власним оглядачем JAS Docs, коли системне діалогове вікно файлів не з'являється.
 	Hide White Space	Приховати порожній простір
 	All pages	Усі сторінки
 	Current page	Поточна сторінка
@@ -2085,5 +2085,5 @@
 	Region:	Регіон:
 	Automatic ({region})	Автоматично ({region})
 	Start-up	Запуск
-	Show the Start screen when JAS Word starts	Показувати початковий екран під час запуску JAS Word
-	On: JAS Word opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Увімкнено: JAS Word відкривається на сторінці Файл › Основне з порожнім документом, шаблонами та нещодавніми документами. Вимкнено: відкривається порожній документ.
+	Show the Start screen when JAS Docs starts	Показувати початковий екран під час запуску JAS Docs
+	On: JAS Docs opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Увімкнено: JAS Docs відкривається на сторінці Файл › Основне з порожнім документом, шаблонами та нещодавніми документами. Вимкнено: відкривається порожній документ.

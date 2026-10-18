@@ -270,7 +270,7 @@ impl Bridge {
                 Self::end_edit(s);
                 Ok(Value::Null)
             }
-            // Zotero's field kinds are one kind in JAS Word; only the note type matters: a
+            // Zotero's field kinds are one kind in JAS Docs; only the note type matters: a
             // citation moves between the text, footnotes and endnotes (switching styles).
             "Document_convert" => {
                 let Value::Array(ids) = arg(c, 1)? else { return Err("field ids must be an array".into()) };
@@ -362,9 +362,9 @@ impl Bridge {
                 Ok(Value::Null)
             }
             "Document_importDocument" | "Document_exportDocument" => {
-                Err("JAS Word doesn't support Zotero's document transfer; the citations are already stored the way Word keeps them".into())
+                Err("JAS Docs doesn't support Zotero's document transfer; the citations are already stored the way Word keeps them".into())
             }
-            m => Err(format!("JAS Word doesn't support {m}")),
+            m => Err(format!("JAS Docs doesn't support {m}")),
         }
     }
 

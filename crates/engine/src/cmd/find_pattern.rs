@@ -32,7 +32,7 @@ pub struct Opts {
     pub ignore_space: bool,
     /// Word's "Use wildcards".
     pub wildcards: bool,
-    /// A regular expression (JAS Word's own option; wins over wildcards).
+    /// A regular expression (JAS Docs's own option; wins over wildcards).
     pub regex: bool,
     /// Take the text literally: no `^` codes.
     pub literal: bool,

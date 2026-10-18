@@ -4,13 +4,13 @@
 use std::path::{Path, PathBuf};
 
 /// The app's settings folder (preferences, logs, key files): macOS
-/// `~/Library/Application Support/JAS Word`, Windows `%APPDATA%\JAS Word`, otherwise
+/// `~/Library/Application Support/JAS Docs`, Windows `%APPDATA%\JAS Docs`, otherwise
 /// `$XDG_CONFIG_HOME/wordcraft` or `~/.config/wordcraft`.
 pub fn settings_dir() -> Option<PathBuf> {
     if cfg!(target_os = "macos") {
-        std::env::var_os("HOME").map(|h| PathBuf::from(h).join("Library/Application Support/JAS Word"))
+        std::env::var_os("HOME").map(|h| PathBuf::from(h).join("Library/Application Support/JAS Docs"))
     } else if cfg!(windows) {
-        std::env::var_os("APPDATA").map(|a| PathBuf::from(a).join("JAS Word"))
+        std::env::var_os("APPDATA").map(|a| PathBuf::from(a).join("JAS Docs"))
     } else {
         std::env::var_os("XDG_CONFIG_HOME")
             .map(PathBuf::from)
@@ -77,7 +77,7 @@ mod tests {
     fn settings_dir_is_the_apps_folder() {
         if let Some(d) = settings_dir() {
             let name = d.file_name().and_then(|n| n.to_str()).unwrap_or("");
-            assert!(name == "wordcraft" || name == "JAS Word", "{}", d.display());
+            assert!(name == "wordcraft" || name == "JAS Docs", "{}", d.display());
         }
     }
 }

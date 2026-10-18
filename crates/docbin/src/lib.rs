@@ -1,9 +1,9 @@
-//! JAS Word reader for the Word 97-2003 binary file format (`.doc`, [MS-DOC]).
+//! JAS Docs reader for the Word 97-2003 binary file format (`.doc`, [MS-DOC]).
 //!
 //! [`read`] turns the bytes of a `.doc` file into a [`wordcraft_doc::Document`]. There is no
 //! writer: saving always goes through the other formats. The reader is written from the public
 //! specification ([MS-DOC], Word (.doc) Binary File Format, Microsoft Open Specifications) and,
-//! like every JAS Word parser, is lenient by design (unknown structures are skipped, bad numbers
+//! like every JAS Docs parser, is lenient by design (unknown structures are skipped, bad numbers
 //! fall back to defaults) and bounded (stream sizes, piece counts and property counts are
 //! capped), so hostile input yields an error or a best-effort document, never a panic.
 #![deny(clippy::unwrap_used, clippy::expect_used, clippy::panic, clippy::unimplemented, clippy::todo, clippy::unreachable)]

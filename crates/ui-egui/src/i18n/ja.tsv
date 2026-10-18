@@ -5,7 +5,7 @@
 	1.5 Line Spacing	1.5 行
 	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Rust でゼロから書かれた、無料のオープンソース ワープロです。\nArtCraft チームの Crafting Apps のひとつです。
 	About	情報
-	About JAS Word	JAS Word について
+	About JAS Docs	JAS Docs について
 	Accept	承諾
 	Accept All Changes	すべての変更を承諾
 	Accept This Change	この変更を承諾
@@ -63,7 +63,7 @@
 	Automatic Table 1 (3 levels)	自動目次 1（3 レベル）
 	Automatic Table 2 (2 levels)	自動目次 2（2 レベル）
 	AutoSave	自動保存
-	AutoSave documents you have saved in JAS Word	JAS Word で保存した文書を自動保存する
+	AutoSave documents you have saved in JAS Docs	JAS Docs で保存した文書を自動保存する
 	AutoSave failed: {error}. Save the document to turn AutoSave back on.	自動保存できませんでした: {error}。文書を保存し直すと、自動保存が再開します。
 	Balloons	吹き出し
 	Bottom Margin	下余白
@@ -77,7 +77,7 @@
 	Click to switch back to inserting	クリックすると挿入モードに戻ります
 	Color only	色のみ
 	Compress punctuation at the start of a line	行頭の約物を詰める
-	Couldn't make JAS Word the default: {error}	JAS Word を既定のアプリにできませんでした: {error}
+	Couldn't make JAS Docs the default: {error}	JAS Docs を既定のアプリにできませんでした: {error}
 	Custom dictionary	ユーザー辞書
 	Dark page (white text on black)	ダーク ページ (黒地に白い文字)
 	Drag a rectangle to draw a table, or a line across cells to split them. Esc stops.	四角形をドラッグして表を描くか、セルを横切る線を引いて分割します。Esc で終了します。
@@ -106,7 +106,7 @@
 	Inside:	内側:
 	Latin text font:	ラテン文字のフォント:
 	Left border	左罫線
-	In Default apps, choose JAS Word for the document types you want it to open.	既定のアプリで、JAS Word で開きたい文書の種類ごとに JAS Word を選んでください。
+	In Default apps, choose JAS Docs for the document types you want it to open.	既定のアプリで、JAS Docs で開きたい文書の種類ごとに JAS Docs を選んでください。
 	Left Margin	左余白
 	Indents and Spacing	インデントと間隔
 	Legal style numbering	正規形式で番号付け
@@ -127,9 +127,9 @@
 	Number format	番号書式
 	Number style for this level:	このレベルの番号の種類:
 	Outside border	外側の罫線
-	Make JAS Word the default for Word documents…	JAS Word を Word 文書の既定のアプリにする…
-	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Word from now on.	今後、.docx、.doc、.rtf、.odt ファイルと Word テンプレートを JAS Word で開きます。
-	Opens Settings › Default apps, where you choose JAS Word for .docx and the other document types.	設定 › 既定のアプリ を開きます。そこで .docx などの文書の種類ごとに JAS Word を選びます。
+	Make JAS Docs the default for Word documents…	JAS Docs を Word 文書の既定のアプリにする…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Docs from now on.	今後、.docx、.doc、.rtf、.odt ファイルと Word テンプレートを JAS Docs で開きます。
+	Opens Settings › Default apps, where you choose JAS Docs for .docx and the other document types.	設定 › 既定のアプリ を開きます。そこで .docx などの文書の種類ごとに JAS Docs を選びます。
 	Overtype	上書き
 	Overtype (typing replaces the characters after the caret)	上書き (入力した文字がカーソルの後ろの文字を置き換えます)
 	Page display	ページの表示
@@ -326,8 +326,8 @@
 	Delete Style	スタイルの削除
 	Delete Table	表の削除
 	Design	デザイン
-	To open Word documents with JAS Word by default: select one in Finder, choose File › Get Info, pick JAS Word under Open with, then click Change All.	Word 文書を既定で JAS Word で開くには: Finder で文書を選び、ファイル › 情報を見る を選んで、「このアプリケーションで開く」で JAS Word を選び、「すべてを変更」をクリックします。
-	JAS Word is now the default app for Word documents.	JAS Word が Word 文書の既定のアプリになりました。
+	To open Word documents with JAS Docs by default: select one in Finder, choose File › Get Info, pick JAS Docs under Open with, then click Change All.	Word 文書を既定で JAS Docs で開くには: Finder で文書を選び、ファイル › 情報を見る を選んで、「このアプリケーションで開く」で JAS Docs を選び、「すべてを変更」をクリックします。
+	JAS Docs is now the default app for Word documents.	JAS Docs が Word 文書の既定のアプリになりました。
 	development build	開発ビルド
 	Diagonal	対角線
 	Diamond	ひし形
@@ -551,7 +551,7 @@
 	Merge Formatting	書式を結合
 	Merged PRs	マージ済みの PR
 	Mirrored	見開きページ
-	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0。Copyright (c) 2026 ArtCraft チームおよび JAS Word の貢献者。
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0。Copyright (c) 2026 ArtCraft チームおよび JAS Docs の貢献者。
 	Moderate	やや狭い
 	Modify Style	スタイルの変更
 	Modify…	変更…
@@ -953,7 +953,7 @@
 	Word Left	前の単語へ
 	Word Right	次の単語へ
 	WordArt	ワードアート
-	JAS Word	JAS Word
+	JAS Docs	JAS Docs
 	Words	単語数
 	Words only	単語のみ
 	Wrap Text	文字列の折り返し
@@ -1340,7 +1340,7 @@
 	The document will be saved with a password. Save it to protect it.	文書はパスワード付きで保存されます。保護するには文書を保存してください。
 	The password is removed. Save the document to keep the change.	パスワードを削除しました。変更を保持するには文書を保存してください。
 	The passwords don't match.	パスワードが一致しません。
-	Keep the password somewhere safe: without it nobody, JAS Word included, can open the document. Leave both boxes empty to remove the password.	パスワードは安全な場所に保管してください。パスワードがないと、JAS Word を含め誰も文書を開けません。パスワードを削除するには両方のボックスを空にします。
+	Keep the password somewhere safe: without it nobody, JAS Docs included, can open the document. Leave both boxes empty to remove the password.	パスワードは安全な場所に保管してください。パスワードがないと、JAS Docs を含め誰も文書を開けません。パスワードを削除するには両方のボックスを空にします。
 
 # Interface text routed through translation (#313)
 	Align Top Left	上揃え (左)
@@ -1729,7 +1729,7 @@
 	Word document	Word 文書
 	All files	すべてのファイル
 	Recipient lists	宛先リスト
-	The system file dialog isn't available, so JAS Word shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	システムのファイル ダイアログを利用できないため、JAS Word 独自のダイアログを表示しています。システムのダイアログを使うには、ファイル選択ポータル (xdg-desktop-portal-gtk など) または zenity をインストールしてください。
+	The system file dialog isn't available, so JAS Docs shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	システムのファイル ダイアログを利用できないため、JAS Docs 独自のダイアログを表示しています。システムのダイアログを使うには、ファイル選択ポータル (xdg-desktop-portal-gtk など) または zenity をインストールしてください。
 	Up one level	1 つ上のフォルダー
 	Home folder	ホーム フォルダー
 	{name} wasn't found.	{name} が見つかりません。
@@ -1737,8 +1737,8 @@
 	This folder can't be read: {error}	このフォルダーを読み取れません: {error}
 	Showing the first {count} items.	最初の {count} 項目を表示しています。
 	File name:	ファイル名:
-	Browse in JAS Word…	JAS Word で参照…
-	Open a file with JAS Word's own browser when the system file dialog doesn't appear.	システムのファイル ダイアログが表示されないときに、JAS Word 独自のブラウザーでファイルを開きます。
+	Browse in JAS Docs…	JAS Docs で参照…
+	Open a file with JAS Docs's own browser when the system file dialog doesn't appear.	システムのファイル ダイアログが表示されないときに、JAS Docs 独自のブラウザーでファイルを開きます。
 	Hide White Space	余白を非表示
 	All pages	すべてのページ
 	Current page	現在のページ
@@ -2073,5 +2073,5 @@
 	Region:	地域:
 	Automatic ({region})	自動 ({region})
 	Start-up	起動
-	Show the Start screen when JAS Word starts	JAS Word の起動時にスタート画面を表示する
-	On: JAS Word opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	オン: JAS Word は [ファイル] › [ホーム] で開き、白紙の文書、テンプレート、最近使った文書を表示します。オフ: 白紙の文書を開きます。
+	Show the Start screen when JAS Docs starts	JAS Docs の起動時にスタート画面を表示する
+	On: JAS Docs opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	オン: JAS Docs は [ファイル] › [ホーム] で開き、白紙の文書、テンプレート、最近使った文書を表示します。オフ: 白紙の文書を開きます。

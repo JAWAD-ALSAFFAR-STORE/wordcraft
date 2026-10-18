@@ -1,4 +1,4 @@
-//! JAS Word in the browser.
+//! JAS Docs in the browser.
 //!
 //! Runs the same [`wordcraft_ui_egui::WordApp`] as the desktop app through eframe's web runner
 //! (wgpu: WebGPU where available, WebGL2 otherwise). Build with `trunk build --release` from this

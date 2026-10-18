@@ -90,12 +90,12 @@ fn reading_toolbar(app: &mut WordApp, ui: &mut Ui, t: Tokens) {
         });
 }
 
-/// Whether the selection is a SmartArt graphic JAS Word can edit (so SmartArt Design is shown).
+/// Whether the selection is a SmartArt graphic JAS Docs can edit (so SmartArt Design is shown).
 pub fn has_smart_art_selected(s: &wordcraft_engine::Session) -> bool {
     wordcraft_engine::cmd::smart_art::selected_smart_art(s).is_some()
 }
 
-/// Whether the selection is a chart JAS Word can edit (so Chart Design is shown).
+/// Whether the selection is a chart JAS Docs can edit (so Chart Design is shown).
 pub fn has_chart_selected(s: &wordcraft_engine::Session) -> bool {
     wordcraft_engine::cmd::chart::selected_chart(s).is_some()
 }
@@ -413,7 +413,7 @@ fn mi_text(ui: &mut Ui, app: &mut WordApp, text: &str, id: &str, params: Value) 
 pub(crate) const PROOFING_LANGUAGES: [(&str, &str); 4] =
     [("en-US", "English (United States)"), ("en-GB", "English (United Kingdom)"), ("pl-PL", "Polish"), ("pt-BR", "Portuguese (Brazil)")];
 
-/// The English name of a proofing language tag, as the status bar shows it (no tag: JAS Word's
+/// The English name of a proofing language tag, as the status bar shows it (no tag: JAS Docs's
 /// default, US English; a tag without a name here: the tag).
 pub(crate) fn language_name(tag: Option<&str>) -> String {
     let tag = tag.unwrap_or("en-US");

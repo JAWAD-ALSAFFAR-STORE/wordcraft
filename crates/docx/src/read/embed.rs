@@ -1,6 +1,6 @@
 //! Objects kept for writing back: charts, SmartArt diagrams and OLE objects.
 //!
-//! JAS Word draws charts and diagrams and shows an OLE object's picture, but doesn't edit them.
+//! JAS Docs draws charts and diagrams and shows an OLE object's picture, but doesn't edit them.
 //! So that saving doesn't lose them, the reader keeps each one's own markup (an `a:graphic` or a
 //! `w:object`) as a [`wordcraft_doc::graphic::Embedded`] on the object, and every part that markup
 //! reaches through relationships (chart, embedded workbook, colours and style; diagram data, layout,

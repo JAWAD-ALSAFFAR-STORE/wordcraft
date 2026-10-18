@@ -13,7 +13,7 @@ use crate::xml::El;
 const THEME_LINE_WIDTHS: [f32; 3] = [0.5, 1.0, 1.5];
 
 /// The shape kind drawn for DrawingML preset geometry `prst` (ECMA-376 Part 1 §20.1.10.56).
-/// Presets JAS Word has no shape for are drawn as the nearest one it has: callouts as the box,
+/// Presets JAS Docs has no shape for are drawn as the nearest one it has: callouts as the box,
 /// round or cloud they point from, flowchart boxes as rectangles.
 pub(crate) fn preset_kind(prst: &str) -> ShapeKind {
     match prst {

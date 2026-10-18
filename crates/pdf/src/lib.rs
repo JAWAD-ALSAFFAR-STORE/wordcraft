@@ -1,4 +1,4 @@
-//! JAS Word PDF export, written with `krilla`.
+//! JAS Docs PDF export, written with `krilla`.
 //!
 //! [`export`] lays the document out and draws each page's display list
 //! ([`wordcraft_layout::display::page_display`]) into a PDF page:
@@ -266,7 +266,7 @@ fn clamp_side(v: f32) -> f32 {
 
 fn metadata(doc: &Document, opts: &PdfOptions) -> Metadata {
     let c = &doc.core;
-    let mut m = Metadata::new().creator("JAS Word".into()).producer("JAS Word".into());
+    let mut m = Metadata::new().creator("JAS Docs".into()).producer("JAS Docs".into());
     let title = opts.title.clone().unwrap_or_else(|| c.title.clone());
     if !title.trim().is_empty() {
         m = m.title(title);

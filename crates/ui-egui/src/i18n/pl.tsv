@@ -1,6 +1,6 @@
 # Polish (pl) interface catalog. Columns, separated by a TAB:
 #   context <TAB> English source <TAB> translation
-#   context    empty (JAS Word uses no contexts yet)
+#   context    empty (JAS Docs uses no contexts yet)
 #   source     the English text exactly as in the code (tl!(...), ribbon labels, command labels)
 #   escapes    \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns, and a
 #              trailing "…" in one needs one in the other.
@@ -9,17 +9,17 @@
 # Clean room: translated from the meaning of the English labels in this repository into ordinary
 # Polish computing vocabulary. No Microsoft Word (or other product) localisation, string table or
 # translated UI was consulted or copied; add entries the same way.
-# Product, format and technology names (JAS Word, PDF, Markdown, MCP …) stay as they are.
+# Product, format and technology names (JAS Docs, PDF, Markdown, MCP …) stay as they are.
 # Conventions: commands are imperatives (Zapisz, Wstaw), tabs and groups are nouns; counts use
 # a label and a colon ("Słowa: 21") so every number reads grammatically; quotes are „…”.
-# Author: Konrad Witkowski with Claude (AI agent); licensed MIT OR Apache-2.0, like JAS Word.
+# Author: Konrad Witkowski with Claude (AI agent); licensed MIT OR Apache-2.0, like JAS Docs.
 # Not yet reviewed by a second native speaker.
 
 	(no suggestions)	(brak propozycji)
 	1.5 Line Spacing	Interlinia 1,5
 	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Darmowy edytor tekstu o otwartym kodzie, napisany od podstaw w języku Rust.\nCzęść rodziny Crafting Apps zespołu ArtCraft.
 	About	Informacje
-	About JAS Word	O programie JAS Word
+	About JAS Docs	O programie JAS Docs
 	Accept	Zaakceptuj
 	Accept All Changes	Zaakceptuj wszystkie zmiany
 	Accept This Change	Zaakceptuj tę zmianę
@@ -400,7 +400,7 @@
 	Link to Previous	Połącz z poprzednim
 	Links	Linki
 	Location: {path}	Lokalizacja: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT lub Apache-2.0. Copyright (c) 2026 ArtCraft Team i współtwórcy JAS Word.
+	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT lub Apache-2.0. Copyright (c) 2026 ArtCraft Team i współtwórcy JAS Docs.
 	Macros	Makra
 	Mailings	Korespondencja
 	Manage Sources	Zarządzaj źródłami
@@ -808,7 +808,7 @@
 	Word Right	Słowo w prawo
 	Word document (*.docx)	Dokument Word (*.docx)
 	WordArt	WordArt
-	JAS Word	JAS Word
+	JAS Docs	JAS Docs
 	Words	Słowa
 	Words only	Tylko wyrazy
 	Wrap Text	Zawijaj tekst
@@ -876,7 +876,7 @@
 	Stopped	Zatrzymano
 	Speed	Szybkość
 	Normal speed	Normalna szybkość
-	AutoSave documents you have saved in JAS Word	Zapisuj automatycznie dokumenty zapisane już w programie JAS Word
+	AutoSave documents you have saved in JAS Docs	Zapisuj automatycznie dokumenty zapisane już w programie JAS Docs
 	AutoSave failed: {error}. Save the document to turn AutoSave back on.	Autozapis nie powiódł się: {error}. Zapisz dokument, aby ponownie włączyć autozapis.
 	Couldn't download {name}: {error}	Nie udało się pobrać pliku {name}: {error}
 	Do you want to save changes to {name}?	Czy zapisać zmiany w dokumencie {name}?
@@ -1098,7 +1098,7 @@
 	Glow Colors	Kolory poświaty
 	Hide from style lists	Ukryj na listach stylów
 	Indents and Spacing	Wcięcia i odstępy
-	Keep the password somewhere safe: without it nobody, JAS Word included, can open the document. Leave both boxes empty to remove the password.	Przechowuj hasło w bezpiecznym miejscu: bez niego nikt, również JAS Word, nie otworzy dokumentu. Pozostaw oba pola puste, aby usunąć hasło.
+	Keep the password somewhere safe: without it nobody, JAS Docs included, can open the document. Leave both boxes empty to remove the password.	Przechowuj hasło w bezpiecznym miejscu: bez niego nikt, również JAS Docs, nie otworzy dokumentu. Pozostaw oba pola puste, aby usunąć hasło.
 	Line breaking	Łamanie wierszy
 	Linked style (paragraph and character)	Styl połączony (akapitowy i znakowy)
 	Manage Styles	Zarządzaj stylami
@@ -1721,7 +1721,7 @@
 	Beginning of Word	Początek wyrazu
 	Blue:	Niebieski:
 	Border lines	Linie obramowania
-	Browse in JAS Word…	Przeglądaj w programie JAS Word…
+	Browse in JAS Docs…	Przeglądaj w programie JAS Docs…
 	Building Block Gallery Content Control	Formant zawartości galerii bloków konstrukcyjnych
 	Can't be deleted	Nie można usunąć
 	Capitalize first letter of sentences	Zaczynaj zdania wielką literą
@@ -1895,7 +1895,7 @@
 	Only comments can be added, except in regions marked editable.	Można dodawać tylko komentarze, z wyjątkiem obszarów oznaczonych jako edytowalne.
 	Only form fields can be filled in.	Można wypełniać tylko pola formularza.
 	Only the allowed styles can be applied.	Można stosować tylko dozwolone style.
-	Open a file with JAS Word's own browser when the system file dialog doesn't appear.	Otwórz plik we własnej przeglądarce plików programu JAS Word, gdy systemowe okno wyboru pliku się nie pojawia.
+	Open a file with JAS Docs's own browser when the system file dialog doesn't appear.	Otwórz plik we własnej przeglądarce plików programu JAS Docs, gdy systemowe okno wyboru pliku się nie pojawia.
 	Ordinals (1st) as superscript	Liczebniki porządkowe (1st) jako indeks górny
 	Organizer	Organizator
 	Organizer…	Organizator…
@@ -2024,7 +2024,7 @@
 	The document is read only, except for regions marked editable.	Dokument jest tylko do odczytu, z wyjątkiem obszarów oznaczonych jako edytowalne.
 	The password is optional; without it anyone can stop the protection.	Hasło jest opcjonalne; bez niego każdy może wyłączyć ochronę.
 	The printer, two-sided printing and pages per sheet are chosen in that dialog.	Drukarkę, druk dwustronny i liczbę stron na arkuszu wybiera się w tym oknie.
-	The system file dialog isn't available, so JAS Word shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Systemowe okno wyboru pliku jest niedostępne, więc JAS Word pokazuje własne. Aby korzystać z okna systemowego, zainstaluj portal wyboru plików (np. xdg-desktop-portal-gtk) lub zenity.
+	The system file dialog isn't available, so JAS Docs shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Systemowe okno wyboru pliku jest niedostępne, więc JAS Docs pokazuje własne. Aby korzystać z okna systemowego, zainstaluj portal wyboru plików (np. xdg-desktop-portal-gtk) lub zenity.
 	These marks show even when Show/Hide ¶ is off.	Te znaki są widoczne nawet przy wyłączonym poleceniu Pokaż wszystko ¶.
 	This document	Ten dokument
 	This folder can't be read: {error}	Nie można odczytać tego folderu: {error}
@@ -2067,15 +2067,15 @@
 	Undo 1 Action	Cofnij 1 akcję
 	Undo {n} Actions	Cofnij akcje: {n}
 	Start-up	Uruchamianie
-	Show the Start screen when JAS Word starts	Pokazuj ekran startowy po uruchomieniu programu JAS Word
-	On: JAS Word opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Włączone: JAS Word otwiera się na karcie Plik › Start z pustym dokumentem, szablonami i ostatnimi dokumentami. Wyłączone: otwiera pusty dokument.
-	Couldn't make JAS Word the default: {error}	Nie udało się ustawić JAS Word jako domyślnego: {error}
-	In Default apps, choose JAS Word for the document types you want it to open.	W Aplikacjach domyślnych wybierz JAS Word dla typów dokumentów, które ma otwierać.
-	Make JAS Word the default for Word documents…	Ustaw JAS Word jako domyślny dla dokumentów Word…
-	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Word from now on.	Od teraz pliki .docx, .doc, .rtf i .odt oraz szablony Word otwierają się w JAS Word.
-	Opens Settings › Default apps, where you choose JAS Word for .docx and the other document types.	Otwiera Ustawienia › Aplikacje domyślne, gdzie wybierasz JAS Word dla .docx i innych typów dokumentów.
-	To open Word documents with JAS Word by default: select one in Finder, choose File › Get Info, pick JAS Word under Open with, then click Change All.	Aby otwierać dokumenty Word domyślnie w JAS Word: zaznacz jeden w Finderze, wybierz Plik › Pokaż info, wybierz JAS Word w „Otwórz za pomocą”, a następnie kliknij „Zmień wszystkie”.
-	JAS Word is now the default app for Word documents.	JAS Word jest teraz domyślną aplikacją dla dokumentów Word.
+	Show the Start screen when JAS Docs starts	Pokazuj ekran startowy po uruchomieniu programu JAS Docs
+	On: JAS Docs opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Włączone: JAS Docs otwiera się na karcie Plik › Start z pustym dokumentem, szablonami i ostatnimi dokumentami. Wyłączone: otwiera pusty dokument.
+	Couldn't make JAS Docs the default: {error}	Nie udało się ustawić JAS Docs jako domyślnego: {error}
+	In Default apps, choose JAS Docs for the document types you want it to open.	W Aplikacjach domyślnych wybierz JAS Docs dla typów dokumentów, które ma otwierać.
+	Make JAS Docs the default for Word documents…	Ustaw JAS Docs jako domyślny dla dokumentów Word…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with JAS Docs from now on.	Od teraz pliki .docx, .doc, .rtf i .odt oraz szablony Word otwierają się w JAS Docs.
+	Opens Settings › Default apps, where you choose JAS Docs for .docx and the other document types.	Otwiera Ustawienia › Aplikacje domyślne, gdzie wybierasz JAS Docs dla .docx i innych typów dokumentów.
+	To open Word documents with JAS Docs by default: select one in Finder, choose File › Get Info, pick JAS Docs under Open with, then click Change All.	Aby otwierać dokumenty Word domyślnie w JAS Docs: zaznacz jeden w Finderze, wybierz Plik › Pokaż info, wybierz JAS Docs w „Otwórz za pomocą”, a następnie kliknij „Zmień wszystkie”.
+	JAS Docs is now the default app for Word documents.	JAS Docs jest teraz domyślną aplikacją dla dokumentów Word.
 	Numerals:	Cyfry:
 	Numerals	Cyfry
 	Hindi	Hindi

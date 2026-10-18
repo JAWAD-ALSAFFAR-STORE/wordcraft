@@ -48,7 +48,7 @@ pub mod rt {
 pub const VBA_PROJECT_PART: &str = "word/vbaProject.bin";
 /// `Document::passthrough` key listing the parts the project relates to (VBA data, signatures…),
 /// one `relationship type \t part name \t content type` line each; each part's bytes are kept
-/// under its part name. Not a package part: JAS Word's own bookkeeping.
+/// under its part name. Not a package part: JAS Docs's own bookkeeping.
 pub const VBA_RELATED: &str = "wordcraft:vbaProject.related";
 /// Most parts we carry along with a macro project.
 pub const MAX_VBA_RELATED: usize = 64;
@@ -56,7 +56,7 @@ pub const MAX_VBA_RELATED: usize = 64;
 /// `Document::passthrough` key listing the parts that objects read from a file refer to (charts,
 /// SmartArt diagrams, OLE objects: see `wordcraft_doc::graphic::Embedded`), with their content
 /// types and own relationships, as [`EmbeddedManifest`] lines. Each part's bytes are kept under its
-/// part name. Not a package part: JAS Word's own bookkeeping.
+/// part name. Not a package part: JAS Docs's own bookkeeping.
 pub const EMBEDDED_PARTS: &str = "wordcraft:embedded.parts";
 /// Custom XML roots kept by the package (P) or main document (D): `owner\ttype\tpart`.
 /// Their opaque bytes and related parts use the same bounded manifest as embedded objects.

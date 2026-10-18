@@ -279,11 +279,11 @@ fn open_page(app: &mut WordApp, ui: &mut Ui) {
         let _ = app.run("ui.openFileDialog", json!({}));
     }
     // Linux and the BSDs (#576): the system dialog needs a file chooser portal or zenity; when it
-    // doesn't show up, JAS Word's own browser is always one click away.
+    // doesn't show up, JAS Docs's own browser is always one click away.
     #[cfg(all(unix, not(target_os = "macos"), not(target_arch = "wasm32")))]
     if ui
-        .button(egui::RichText::new(tl!("Browse in JAS Word…")).font(medium(14.0)))
-        .on_hover_text(tl!("Open a file with JAS Word's own browser when the system file dialog doesn't appear."))
+        .button(egui::RichText::new(tl!("Browse in JAS Docs…")).font(medium(14.0)))
+        .on_hover_text(tl!("Open a file with JAS Docs's own browser when the system file dialog doesn't appear."))
         .clicked()
     {
         let _ = app.run("ui.fileBrowser", json!({}));

@@ -1,6 +1,6 @@
-# Builds the JAS Word Windows installer (MSI) and portable zip with packaging/windows/package.ps1.
+# Builds the JAS Docs Windows installer (MSI) and portable zip with packaging/windows/package.ps1.
 # Unsigned test builds: sign.ps1 skips signing when no certificate secrets are set.
-name: JAS Word Windows build
+name: JAS Docs Windows build
 
 on:
   workflow_dispatch:

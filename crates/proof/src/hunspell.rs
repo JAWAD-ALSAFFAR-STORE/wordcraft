@@ -1,6 +1,6 @@
 //! Hunspell dictionaries installed on the system, read at runtime.
 //!
-//! JAS Word doesn't bundle large spelling dictionaries. For languages with an affix dictionary
+//! JAS Docs doesn't bundle large spelling dictionaries. For languages with an affix dictionary
 //! (Polish), it reads the standard Hunspell `.aff`/`.dic` pair installed by the operating system,
 //! a package manager or LibreOffice, with [`crate::affix::AffixDict::from_hunspell`]. When none is
 //! installed the language has no spelling check (no marks, no errors), like Word without the
@@ -57,7 +57,7 @@ pub fn search_dirs(lo_exts: Option<&[String]>) -> Vec<PathBuf> {
     if cfg!(windows) {
         for var in ["LOCALAPPDATA", "APPDATA"] {
             if let Some(base) = std::env::var_os(var).filter(|v| !v.is_empty()).map(PathBuf::from) {
-                dirs.push(base.join("JAS Word").join("dictionaries"));
+                dirs.push(base.join("JAS Docs").join("dictionaries"));
                 dirs.push(base.join("hunspell"));
             }
         }
