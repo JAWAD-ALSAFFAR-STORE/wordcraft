@@ -933,7 +933,7 @@ fn moved_and_copied_chart_keeps_its_parts() {
     let d = wordcraft_docx::read(&chart_docx()).unwrap();
     let g = graphics(&d);
     let [InlineObject::Graphic { alt, graphic, .. }] = g.as_slice() else { panic!("{g:?}") };
-    // Resized and dragged to float on the page in WordCraft, then copied and pasted.
+    // Resized and dragged to float on the page in JAS Word, then copied and pasted.
     let float = wordcraft_doc::para::Float { wrap: Wrap::Square, h_rel: Anchor::Page, v_rel: Anchor::Page, x: 36.0, y: 18.0, ..Default::default() };
     let moved = InlineObject::Graphic { w: 288.0, h: 144.0, alt: alt.clone(), float, graphic: graphic.clone() };
     let mut p = Paragraph::new();
@@ -977,7 +977,7 @@ fn ole_object_round_trips() {
     let Some(InlineObject::Image { w, ole: Some(_), .. }) = paras(&d)[0].objects.first() else { panic!("{:?}", paras(&d)[0].objects) };
     assert_eq!(*w, 72.0);
 
-    // Resized in WordCraft.
+    // Resized in JAS Word.
     let mut doc = d.clone();
     if let Some(wordcraft_doc::Block::Para(p)) = doc.body.first_mut().map(std::sync::Arc::make_mut)
         && let Some(InlineObject::Image { w, h, .. }) = p.objects.first_mut()
@@ -1072,7 +1072,7 @@ fn first_object(doc: &mut Document) -> &mut InlineObject {
     p.objects.first_mut().expect("an object")
 }
 
-/// #319 with #332: an OLE object turned or flipped in WordCraft is written back turned, in its VML
+/// #319 with #332: an OLE object turned or flipped in JAS Word is written back turned, in its VML
 /// shape (`rotation`, `flip`) and in a DrawingML picture (`a:xfrm` rot/flipH/flipV, with the
 /// effect extent covering the rotated bounds like other drawings).
 #[test]
@@ -1636,7 +1636,7 @@ fn embedded_fonts_survive_a_round_trip() {
     assert_eq!(text(&again, "word/fonts/Roboto-bold.ttf"), "bold font bytes");
 }
 
-// ---- native Word ink: opaque preservation, never re-encoded as WordCraft freeforms ----
+// ---- native Word ink: opaque preservation, never re-encoded as JAS Word freeforms ----
 
 const INK_NS: &str = "http://schemas.microsoft.com/office/word/2010/wordprocessingInk";
 const INK_XML: &str = r##"<ink xmlns="http://www.w3.org/2003/InkML"><definitions><context xml:id="ctx"><inkSource xml:id="src"><traceFormat><channel name="X" type="integer" units="cm"/><channel name="Y" type="integer" units="cm"/></traceFormat></inkSource></context><brush xml:id="blue"><brushProperty name="color" value="#2563EB"/><brushProperty name="width" value="0.08" units="cm"/></brush></definitions><trace contextRef="#ctx" brushRef="#blue">0 0, 1 1, 2 0</trace></ink>"##;
@@ -1878,7 +1878,7 @@ fn toc_entry_links_lose_the_hyperlink_style() {
 
 /// A style or paragraph whose `w:numPr` gives only a level (`w:ilvl`) takes the list from its
 /// style chain (ECMA-376 §17.3.1.19): a Heading 3 based on a numbered Heading 2 is level 3 of the
-/// same list. WordCraft dropped the level, so Heading 3s numbered as Heading 2s (6.15 where Word
+/// same list. JAS Word dropped the level, so Heading 3s numbered as Heading 2s (6.15 where Word
 /// shows 6.4.5 in NIH's monitoring-plan template).
 #[test]
 fn a_list_level_without_a_list_takes_the_style_s_list() {

@@ -70,7 +70,7 @@ fn reading_layout_reflows_into_viewport_height_pages_without_changing_print_layo
 
 #[test]
 fn hit_and_caret_agree() {
-    let d = Document::from_text("Hello world, this is WordCraft.\nSecond paragraph here.");
+    let d = Document::from_text("Hello world, this is JAS Word.\nSecond paragraph here.");
     let l = lay(&d);
     for off in [0, 5, 12, 31] {
         let pos = Pos::body(0, off);
@@ -4147,7 +4147,7 @@ fn hyphenation_and_proofing_follow_each_runs_language() {
     assert_eq!(issues[1].lang, wordcraft_proof::ProofLang::En);
 }
 
-/// Text in a language WordCraft can't proof gets no spelling marks, and "Do not check spelling
+/// Text in a language JAS Word can't proof gets no spelling marks, and "Do not check spelling
 /// or grammar" text none either; the document default language applies to text without its own.
 #[test]
 fn unproofed_languages_and_no_proof_runs_are_not_marked() {
@@ -4445,7 +4445,7 @@ fn a_hidden_cell_mark_takes_no_room() {
 
 /// A text frame in a header, footer or cell (NIH's footers put the page number in one, centred,
 /// with the footer text wrapping around it) is placed apart: it takes no room in the flow, sits
-/// where its alignment says, and the text beside it keeps clear of it. WordCraft laid it out as
+/// where its alignment says, and the text beside it keeps clear of it. JAS Word laid it out as
 /// an ordinary paragraph, a line of its own above the footer text.
 #[test]
 fn a_text_frame_in_a_cell_floats_beside_the_text() {
@@ -4663,7 +4663,7 @@ fn paragraph_relative_floats_start_above_the_space_before() {
 }
 
 /// Unequal columns (a narrow label column and a wide text column, as in NIH's SARP form): text
-/// after a column break is broken for the column it lands in. WordCraft broke it for the narrow
+/// after a column break is broken for the column it lands in. JAS Word broke it for the narrow
 /// column it started in, so a paragraph took a dozen lines a word or two wide.
 #[test]
 fn text_after_a_column_break_takes_the_new_column_s_width() {
@@ -4737,7 +4737,7 @@ fn space_before_at_the_top_of_a_page_like_word() {
 }
 
 /// Word kerns a run only when Kerning for fonts (`w:kern`) is set and the font is at least that
-/// size; WordCraft kerned everything, so its lines held more text than Word's (measured in Word for
+/// size; JAS Word kerned everything, so its lines held more text than Word's (measured in Word for
 /// Windows with Calibri at 14 pt: no `w:kern`, `w:kern="0"` and a threshold above the size are
 /// all unkerned).
 #[test]

@@ -1,0 +1,2 @@
+The JAS logo and the JAS Word app icons in this folder are © Jawad Alsaffar Store. All rights reserved.
+They are not licensed under the MIT or Apache-2.0 licences that cover this repository's code.

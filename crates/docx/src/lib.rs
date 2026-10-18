@@ -1,4 +1,4 @@
-//! WordCraft DOCX reader and writer (ECMA-376 / ISO/IEC 29500 WordprocessingML).
+//! JAS Word DOCX reader and writer (ECMA-376 / ISO/IEC 29500 WordprocessingML).
 //!
 //! [`read`] turns a `.docx` package into a [`wordcraft_doc::Document`]; [`write`] does the
 //! reverse. Both are written from the public specification. The reader is lenient (unknown
@@ -137,7 +137,7 @@ pub enum DocxError {
     /// The password doesn't open the package.
     #[error("{}", WRONG_PASSWORD)]
     WrongPassword,
-    /// The package is encrypted in a way WordCraft can't read, or its encryption data is damaged
+    /// The package is encrypted in a way JAS Word can't read, or its encryption data is damaged
     /// (or encrypting failed).
     #[error("encrypted document: {0}")]
     Encryption(String),
